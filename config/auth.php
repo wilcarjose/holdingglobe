@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Holdingglobe\User::class,
+            'model' => Holdingglobe\Models\User::class,
         ],
 
         // 'users' => [
