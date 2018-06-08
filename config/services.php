@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Holdingglobe\User::class,
+        'model' => Holdingglobe\Models\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

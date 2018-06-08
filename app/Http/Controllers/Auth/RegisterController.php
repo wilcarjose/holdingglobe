@@ -2,7 +2,7 @@
 
 namespace Holdingglobe\Http\Controllers\Auth;
 
-use Holdingglobe\User;
+use Holdingglobe\Models\User;
 use Holdingglobe\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Holdingglobe\User
+     * @return \Holdingglobe\Models\User
      */
     protected function create(array $data)
     {
